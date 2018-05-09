@@ -1,4 +1,3 @@
-# memGame2
 MEMORY GAME
 
 This is a simple memory game built to test user's memory. 
