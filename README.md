@@ -6,8 +6,10 @@ The user can start the game over using a "Play Again" button.
 The game shuffles the cards with each new game, reveals the cards for a second before flipping them all to the back of the card. 
 
 BUGS 
+
 The mechanics of this game are not perfect. If the card is clicked on too fast, the game might freeze. 
 Taking a moment after the card is fully revealed is advised for smoother performance. 
 
 FUTURE IMPROVEMENTS
-There can be time clock added, as well as number of moves updating with each click. 
+
+Adding the timer and the move-tracker can improve user's experience, and improve focus to find all matches quickly. 
