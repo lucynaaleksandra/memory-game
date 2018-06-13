@@ -2,8 +2,8 @@ import './index.scss'
 import Chance from "chance"
 
 const chance = new Chance()
-const NUM_IMG = 9
-const SETS = 4
+const NUM_IMG = 14
+const SETS = 10
 const back_card = "/asset/img/cover.jpg"
 let firstCardRevealed = undefined
 let container = document.querySelector("main")

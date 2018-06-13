@@ -2,6 +2,7 @@
 
 // $color-green: #AABBB7;
 // background-color: rgba($color-green, 0.2);
+// GOLD: rgb(212, 179, 118)
 $boxSize: 200px;
 
 * {
@@ -20,9 +21,9 @@ body {
 
 #stripe {
   background-color: white; 
-  border-bottom: 3px solid rgb(170, 187, 183); 
+  border-bottom: 3px solid rgb(212, 179, 118); 
   height: 35px; 
-  color: rgb(170, 187, 183);
+  color: rgb(212, 179, 118);
 }
 
 nav {
@@ -38,7 +39,7 @@ nav {
     font-size: inherited;
     text-transform: uppercase; 
     font-weight: 700; 
-    color: rgb(170, 187, 183); 
+    color: rgb(212, 179, 118); 
     transition: all 0.3s; 
   
     .space {
@@ -52,7 +53,7 @@ nav {
 h1 {
   margin: 0; 
   padding: 10px 0;
-  background-color: rgb(170, 187, 183);
+  background-color: rgb(212, 179, 118);
   color: white; 
   line-height: 1.1; 
   font-weight: normal; 
@@ -68,7 +69,7 @@ main {
   grid-gap: 10px 10px;
   max-width: 1400px;
   margin: auto; 
-  //height: calc(100vh - 20px);
+  // height: calc(100vh - 20px);
   padding: 30px;
   justify-content: center;
 
@@ -80,16 +81,19 @@ main {
     border: 1px solid #ddd;
     border-radius: 10px;
     transition: opacity ease-in-out 750ms 0ms; 
+    cursor: pointer;
   }
 }
 
 button {
-  font-size: 25px;
+  padding-top: 5px;
+  font-size: 24px;
   text-transform: uppercase;
   font-family: inherit; 
   font-weight: 500;
-  color: rgb(149, 164, 160);
+  border: 1px solid rgb(212, 179, 118);
+  color: rgb(212, 179, 118);
   border-radius: 15px;
   margin: 30px;
-  // padding: 5px; 
+  cursor: pointer;
 }
