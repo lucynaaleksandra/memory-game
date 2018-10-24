@@ -36,7 +36,7 @@ nav {
   // stats
   span {
     background-color: none; 
-    // font-size: inherited;
+    font-size: inherited;
     text-transform: uppercase; 
     font-weight: 700; 
     color: rgb(212, 179, 118); 
@@ -75,8 +75,7 @@ main {
   grid-gap: 10px 10px;
   max-width: 1400px;
   margin: auto; 
-  // height: calc(100vh - 20px);
-  padding: 30px;
+  padding: 50px;
   justify-content: center;
 
   >div {
@@ -115,8 +114,8 @@ button {
 
 footer {
   background-color: rgb(117, 98, 63);
-  padding: 20px; 
-  margin-top: 50px;
+  padding: 30px; 
+  margin-top: 100px;
   font-size: 1.1em;
   font-weight: 300;
   word-spacing: 7px;
