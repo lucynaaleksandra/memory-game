@@ -7,16 +7,16 @@ $boxSize: 200px;
 
 * {
   box-sizing: border-box; 
+  margin: 0;
+  padding: 0;
 }
 
 body {
-  margin: 0; 
-  padding-bottom: 10px;
   width: 100vw;
   min-height: 100vh;
-  font-family: "Montserrat", "Avenir";
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Lato', sans-serif;
   text-align: center;
-  // overflow: hidden;
 }
 
 #stripe {
@@ -36,7 +36,7 @@ nav {
   // stats
   span {
     background-color: none; 
-    font-size: inherited;
+    // font-size: inherited;
     text-transform: uppercase; 
     font-weight: 700; 
     color: rgb(212, 179, 118); 
@@ -52,17 +52,23 @@ nav {
 // game title
 h1 {
   margin: 0; 
-  padding: 10px 0;
+  padding: 30px 0 40px 0;
   background-color: rgb(212, 179, 118);
   color: white; 
-  line-height: 1.1; 
-  font-weight: normal; 
-  font-size: 80px; 
+  line-height: 1; 
+  font-weight: 300; 
+  font-size: 100px; 
+  word-spacing: 20px;
+  letter-spacing: 5px;
   text-transform: uppercase; 
   text-align: center; 
 }
 
 // GRID
+#container {
+  margin-bottom: 50px;
+}
+
 main {
   display: grid;
   grid-template-columns: repeat(auto-fill, $boxSize);
@@ -86,14 +92,39 @@ main {
 }
 
 button {
-  padding-top: 5px;
+  padding: 8px;
   font-size: 24px;
   text-transform: uppercase;
   font-family: inherit; 
   font-weight: 500;
   border: 1px solid rgb(212, 179, 118);
   color: rgb(212, 179, 118);
-  border-radius: 15px;
+  border-radius: 12px;
   margin: 30px;
+  outline: none;
   cursor: pointer;
+}
+
+
+//  --------------- FOOTER ---------------
+
+.footer--row {
+  max-width: 1200px; 
+  margin: 0 auto; 
+}
+
+footer {
+  background-color: rgb(117, 98, 63);
+  padding: 20px; 
+  margin-top: 50px;
+  font-size: 1.1em;
+  font-weight: 300;
+  word-spacing: 7px;
+}
+
+footer p {
+  color: #ddd;
+  text-align: center;
+  margin-top: 5px; 
+  font-size: 100%;
 }

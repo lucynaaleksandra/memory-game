@@ -3,7 +3,7 @@ import Chance from "chance"
 
 const chance = new Chance()
 const NUM_IMG = 14
-const SETS = 10
+const SETS = 9
 const back_card = "/asset/img/cover.jpg"
 let firstCardRevealed = undefined
 let container = document.querySelector("main")
