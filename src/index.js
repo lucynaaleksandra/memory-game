@@ -1,5 +1,6 @@
 import './index.scss'
 import Chance from "chance"
+// import moment from "moment"
 
 const chance = new Chance()
 const NUM_IMG = 14

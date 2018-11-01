@@ -1,15 +1,15 @@
-MEMORY GAME
+# MEMORY GAME  
 
-This is a simple memory game built to test user's memory. 
-There are 14 cards (6 sets being displayed). The game is over when all cards are matched. 
-The user can start the game over using a "Play Again" button. 
-The game shuffles the cards with each new game, reveals the cards for a second before flipping them all to the back of the card. 
+#####A matching game of nine pairs of tiles each to be matched with the same tile. Game is over when all tiles are matched.  
 
-BUGS 
+##Getting Started  
 
-The mechanics of this game are not perfect. If the card is clicked on too fast, the game might freeze. 
-Taking a moment after the card is fully revealed is advised for smoother performance. 
+git clone 'https://git@github.com:lucynaaleksandra/memory-game.git'  
 
-FUTURE IMPROVEMENTS
+npm Install  
 
-Adding the timer and the move-tracker can improve user's experience, and improve focus to find all matches quickly. 
+npm start  
+
+##Future improvements  
+
+####Adding the timer and the move-tracker can improve user's experience, and improve focus to find all matches quickly.
