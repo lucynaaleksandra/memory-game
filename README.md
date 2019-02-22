@@ -5,9 +5,7 @@ A matching game of nine pairs of tiles each to be matched with the same tile. Ga
 ## Getting Started  
 
 > git clone 'https://git@github.com:lucynaaleksandra/memory-game.git'  
-
 > npm Install  
-
 > npm start  
 
 ## Future improvements  
